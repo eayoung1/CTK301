@@ -1,0 +1,28 @@
+.specialp {
+    color: hsla(110, 100%, 60%, 0.463);
+    background-color:rgb(95, 151, 199);
+    
+    
+}
+.spanstyle {color:#2bff00;}
+
+#divexample {background-color: aqua;}
+#specialid {color: hsl(48, 100%, 60%);
+    background-color:rgba(199, 95, 176, 0.45)  }
+    .sick {color: hsl(0, 100%, 60%);
+        background-color:rgba(97, 122, 161, 0.45)}
+        
+        
+          a:link {
+            color: #ff0000;
+          }
+          
+          a:visited {
+            color: #2bff00;
+          }
+          
+          
+          a:hover {
+            color: #f2ff00;
+          }    
+          
