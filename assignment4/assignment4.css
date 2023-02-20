@@ -1,0 +1,50 @@
+/* CSS */
+.textallign {text-align: justify;}
+body {background-image: url(pacman-30th-anniversary.jpg);
+background-blend-mode: color-burn; opacity: 1; background-repeat: no-repeat;
+background-position: top left;}
+.woop {color: aliceblue;}
+.customtext {
+  font-family: sans-serif;}
+
+.imgbox {border:10px solid#000000;
+background-color: yellow;
+padding: 2px 2px 2px 2px;}
+  .fontcombined {
+    text-align: justify;
+}
+  .textcenter {
+    text-align: center;}
+
+.specialp {
+    background-color:rgb(95, 151, 199);
+    
+    
+}
+.spanstyle {color:#2bff00;}
+
+#divexample {background-color: aqua;}
+#specialid {
+    background-color:rgba(199, 95, 176, 0.45)  }
+    .sick {color: hsl(0, 100%, 60%);
+        background-color:rgba(97, 122, 161, 0.45)}
+        
+        
+          a:link {
+            color: #ff0000;
+          }
+          
+          a:visited {
+            color: #2bff00;
+          }
+          
+          
+          a:hover {
+            color: #f2ff00;
+          }   
+          h1 {font-weight: normal; color:#ff6200;font-style: italic;}
+          h2 {font-weight: normal; color:#ff6200;font-style: italic;}
+          h3 {font-weight: normal; color:#ff6200;font-style: italic;}
+          h4 {font-weight: normal; color:#ff6200;font-style: italic;} 
+
+          
