@@ -1,0 +1,178 @@
+body {
+    background-color: #999999;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0px;
+    width: 960px;
+    border: 3px solid darkblue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: auto auto auto auto;
+
+}
+
+
+header {
+     grid-column: span 12;
+    border-bottom: darkblue solid 3px ;
+    background-color: blue;
+    color: lightblue;
+    font-family: Helvetica;
+    clear: both;
+    display: block;
+}
+
+nav
+{
+    grid-column: span 12;
+    font-family: Helvetica
+}
+h1 {
+    padding-left: 24px;
+}
+header li {
+    display: block;
+   
+}
+header li a {
+    clear: both;
+    padding: 24px;
+    padding-right: 773px;
+    text-decoration: none;
+    color: lightblue;
+    
+}
+
+header li a :hover {
+    background-color: darkblue;
+    color: white
+}
+main
+
+{ grid-column: span 4;
+    text-align: center;
+    padding: 20px;
+background-color: white;}
+
+content {
+    grid-column: span 4;
+    text-align: center;
+    padding: 20px;
+}
+.lol {
+    text-align: justify;
+}
+ .specialid {
+    
+    display: block;
+   
+    text-align: justify
+   ;
+ }
+    h2 {
+        color: blue;
+        border-bottom: blue solid 3px;
+        font-family: Helvetica;
+        
+    }
+.special
+{
+    
+    display: block;
+    text-align: justify;
+}
+main b { 
+    display: block;
+      text-align: center;
+    }
+
+footer {
+    grid-column: span 12;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    
+  }
+  
+ nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-right: solid darkblue 3px;
+    width: 200px;
+  }
+  
+  li a:hover {
+    background-color: darkblue;
+    color: white
+  }
+
+
+aside {
+    grid-column: span 4;
+    padding: 20px;
+    
+
+}
+
+.floatimg {
+    float: none;
+    padding-right: 0px;
+    margin-right: 24px;
+    width: 200px
+}
+
+main a:link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  main a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline; }
+
+    aside a:link {
+        color: red;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      
+      
+      aside a:hover {
+        color: blue;
+        font-weight: bold;
+        text-decoration: underline; }
+
+        content a:link {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+          }
+          
+          
+          content a:hover {
+            color: blue;
+            font-weight: bold;
+            text-decoration: underline; }
+
+footer {
+    clear: both;
+    background-color: red;
+    border-top: solid darkblue 3px
+}
